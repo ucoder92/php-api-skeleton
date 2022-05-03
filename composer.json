@@ -1,0 +1,23 @@
+{
+    "name": "ucoder92/php-api-skeleton",
+    "description": "A skeleton repository for API based PHP projects",
+    "keywords": ["php", "skeleton", "package"],
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Ulugbek Nuriddinov",
+            "email": "ucoder92@gmail.com",
+            "homepage": "https://github.com/ucoder92/php-api-skeleton"
+        }
+    ],
+    "autoload": {
+    "psr-4": {
+            "Libs\\": "libs/",
+            "Models\\": "models/"
+        }
+    },
+    "require": {
+        "php": ">=7.0.0",
+        "phpmailer/phpmailer": "^6.6"
+    }
+}

@@ -1,0 +1,44 @@
+{
+    "en": {
+        "code": "en",
+        "locale": "en_GB",
+        "name": "English",
+        "active": true
+    },
+    "de": {
+        "code": "de",
+        "locale": "de_DE",
+        "name": "Deutsch",
+        "active": false
+    },
+    "fr": {
+        "code": "fr",
+        "locale": "fr_FR",
+        "name": "Français",
+        "active": false
+    },
+    "it": {
+        "code": "it",
+        "locale": "it_IT",
+        "name": "Deutsch",
+        "active": false
+    },
+    "tr": {
+        "code": "tr",
+        "locale": "tr_TR",
+        "name": "Türkçe",
+        "active": false
+    },
+    "uz": {
+        "code": "uz",
+        "locale": "uz_UZ",
+        "name": "O'zbekcha",
+        "active": true
+    },
+    "ru": {
+        "code": "ru",
+        "locale": "ru_RU",
+        "name": "Русский",
+        "active": true
+    }
+}

@@ -1,0 +1,64 @@
+<table bgcolor="#f2f2f2" border="0" cellpadding="0" cellspacing="0" width="100%" style="border-collapse:collapse;font:14px / 14px 'Proxima Nova', 'Calibri', 'Helvetica', Arial, sans-serif;">
+  <tbody>
+    <tr>
+      <td style="border-collapse:collapse;">
+        <table border="0" cellpadding="0" cellspacing="0" width="600" style="border-collapse:collapse;" align="center">
+          <tbody>
+            <tr>
+              <td height="70">
+                <h4 style="font-size: 20px;font-weight: 600;margin:0;padding: 30px 10px 30px 10px;text-align: center;">
+                  {{ title }}
+                </h4>
+              </td>
+            </tr>
+          </tbody>
+        </table>
+
+        <table bgcolor="#ffffff" border="0" cellpadding="0" cellspacing="0" width="600" style="border-collapse:collapse;" align="center">
+          <tbody>
+            <tr>
+              <td width="30"></td>
+              <td width="640" height="30"></td>
+              <td width="30"></td>
+            </tr>
+            <tr>
+              <td width="30"></td>
+              <td width="640" style="font-size: 16px;">
+                <p style="margin-top:0;">Fullname: {{ fullname }}</p>
+                <p>E-mail: {{ email }}</p>
+                <p>Phone number: {{ phone_number }}</p>
+                <p style="margin-bottom:0;">Number of trucks: {{ trucks }}</p>
+              </td>
+              <td width="30"></td>
+            </tr>
+            <tr>
+              <td width="30"></td>
+              <td width="640" height="30"></td>
+              <td width="30"></td>
+            </tr>
+          </tbody>
+        </table>
+
+        <table border="0" cellpadding="0" cellspacing="0" width="600" style="border-collapse:collapse;text-align:center;" align="center">
+          <tbody>
+            <tr>
+              <td height="20"></td>
+            </tr>
+            <tr>
+              <td>
+                <p style="font-size:13px;color:#4c4c4c;">
+                  © {{ fun.date('Y') }} {{ brand_name }}. All rights reserved.
+                  <br>
+                  <a href="{{ site_url }}">{{ domain }}</a>
+                </p>
+              </td>
+            </tr>
+            <tr>
+              <td height="20"></td>
+            </tr>
+          </tbody>
+        </table>
+      </td>
+    </tr>
+  </tbody>
+</table>
